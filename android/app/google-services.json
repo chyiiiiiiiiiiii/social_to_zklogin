@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "80196511557",
+    "project_id": "social-zklogin",
+    "storage_bucket": "social-zklogin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80196511557:android:02f51aec1d75cec2d6002c",
+        "android_client_info": {
+          "package_name": "com.example.social_to_zklogin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeJZ9eg7o3AvLT3VM619qc1r0OvrlG_Fw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

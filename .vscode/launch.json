@@ -1,0 +1,51 @@
+{
+	// Use IntelliSense to learn about possible attributes.
+	// Hover to view descriptions of existing attributes.
+	// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "social_to_zklogin",
+			"request": "launch",
+			"type": "dart",
+			"args": [
+				"--dart-define",
+				"shinamiAccessKey=sui_testnet_f96ad6ds480c26df1casdb1eadafa2088e",
+				// "shinamiAccessKey=sui_devnet_499d2c442c56985ca270971d2351f5e0"
+				"twitchClientId=juyyc6svlrrs2618dx9iljhysh2aa7k"
+			]
+		},
+		{
+			"name": "web-7357",
+			"request": "launch",
+			"type": "dart",
+			"args": [
+				// "--web-hostname",
+				// "localhost",
+				"--web-port",
+				"7357",
+				"-d",
+				"chrome",
+				"--web-renderer",
+				"html",
+				"--web-browser-flag",
+				["--web-browser-flag=--disable-web-security"],
+				"shinamiAccessKey=sui_testnet_f96dad6d480c26df1c8fb1sddafa2088e",
+				// "shinamiAccessKey=sui_devnet_499d2c442c56985ca270971d2351f5e0"
+				"twitchClientId=juyyc6svlrrd2618dx9iljhybb2gq7k"
+			]
+		},
+		{
+			"name": "social_to_zklogin (profile mode)",
+			"request": "launch",
+			"type": "dart",
+			"flutterMode": "profile"
+		},
+		{
+			"name": "social_to_zklogin (release mode)",
+			"request": "launch",
+			"type": "dart",
+			"flutterMode": "release"
+		}
+	]
+}

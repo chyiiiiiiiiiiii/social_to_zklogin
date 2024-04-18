@@ -1,0 +1,47 @@
+name: social_to_zklogin
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.3.1 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  poseidon: ^0.0.1
+
+  sui:
+    git:
+      url: https://github.com/mofalabs/sui
+      ref: 1355f22a6e86a6c35e6a23c41d7ef97f3400aa57
+  zklogin: ^0.0.1
+
+  google_sign_in: ^6.1.6
+  sign_in_with_apple: ^5.0.0
+  flutter_appauth: ^6.0.5
+
+  firebase_core: ^2.27.0
+  firebase_auth: ^4.17.8
+
+  jwt_decoder: ^2.0.1
+  freezed_annotation: ^2.4.1
+  json_annotation: ^4.8.1
+
+dependency_overrides:
+  sui:
+    git:
+      url: https://github.com/mofalabs/sui
+      ref: 1355f22a6e86a6c35e6a23c41d7ef97f3400aa57
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.8
+  freezed: ^2.4.7
+  json_serializable: ^6.7.1
+
+flutter:
+  uses-material-design: true
